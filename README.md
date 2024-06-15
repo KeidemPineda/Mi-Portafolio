@@ -57,7 +57,7 @@
         >Pagina De Presentacion</a
       >
       <img
-        src="Imagenes/lectores.jpeg"
+        src="imagenes/Lectores.jpeg"
         alt="Pagina De Presentacion"
         title="Pagina De Presentacion"
       />
