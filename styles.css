@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #eee;
+  background-color: #222;
+  font-size: 16px;
+}
+#nav-bar {
+  width: 100%;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 70px #6669;
+  border-bottom: 4px solid #6669;
+}
+.ul-nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+}
+.li-nav {
+  padding: 0;
+  margin: 0;
+}
+.a-nav {
+  display: block;
+  color: #eee;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-left: 1px solid #6669;
+}
+section {
+  max-width: 650px;
+  background-color: transparent;
+  box-shadow: 0px 0px 35px #6669;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: auto;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  color: #eee;
+}
+#bienvenidos {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bienvenidos h1 {
+  padding: 0px 10px;
+  font-size: 2.5em;
+  border-left: 4px solid #6669;
+}
+#bienvenidos p {
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.h2-sobremi {
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 300;
+  border-bottom: 3px solid #6669;
+}
+.p-sobremi {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0px 25px;
+  font-style: italic;
+}
+#proyectos {
+  box-sizing: border-box;
+}
+#proyectos h2 {
+  font-size: 1.7em;
+  font-weight: 300;
+  text-align: center;
+  border-bottom: 3px solid #6669;
+  padding-bottom: 10px;
+}
+#proyectos a {
+  text-decoration: none;
+  color: rgb(146, 138, 224);
+  font-size: 1.3em;
+}
+#proyectos img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+form {
+  background-color: transparent;
+  padding: 20px;
+  max-width: 650px;
+  margin: auto;
+  box-shadow: 0px 0px 55px #6669;
+  margin-top: 50px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.h2-form {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.6em;
+  padding: 10px;
+}
+.form-input {
+  padding: 6px 20px;
+}
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: none;
+  box-shadow: 0px 0px 15px #0006;
+  border: 1px solid #666;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #eee;
+}
+textarea {
+  min-width: 100%;
+  min-height: 102px;
+  resize: vertical;
+  max-height: 200px;
+  font-family: sans-serif;
+  padding: 8px 6px;
+}
